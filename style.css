@@ -1,0 +1,120 @@
+/* Here we change the HTML*/
+html{
+  background-color: beige;
+  border: double red 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Here we change the body*/
+body{
+  display: flex;
+  flex-direction: column;
+}
+/* Here we change the anchor elements in the whole site*/
+a:hover{
+  color: red;
+}
+/* Here we change the Header*/
+header{
+  order: 2;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Here we change the Header's container*/
+header  .container{
+  display: flex;
+  background-color: lightblue;
+  border: dotted darkblue 15px;
+  flex-direction: column;
+}
+/* Here we change the svg contained in the HTML*/
+header .container span svg{
+  max-height: 50px;
+  max-width: 50px;
+  order: 0;
+}
+/* Here we change the container class in the header while hovering*/
+header > .container:first-of-type:hover{
+  color: whitesmoke;
+  background-color: purple;
+  margin: auto;
+
+}
+/* Here we change the heading inside the container nested in header*/
+header .container h1{
+  color: yellow;
+  margin-left: 40%;
+  font-weight: 800;
+}
+
+/* Here we change the Ul items in the nav bar*/
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap:  16px;
+  justify-content: center;
+  
+}
+
+/* Here we change the Nav abr*/
+nav {
+  margin: 10px;
+  background-color: lightblue;
+  border: dotted darkblue 15px;
+  order: 1;
+  flex-wrap: wrap;
+
+}
+/* Here we change the nav after hovering*/
+nav:hover {
+  color: red;
+  transform: scale(1.2);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Here we change the main in the file*/
+main{
+  order: 3;
+  margin: 10px;
+  background-color: lightblue;
+  border: dashed darkblue 15px;
+}
+
+/* Here we change the main after hovering*/
+main:hover{
+  background-color: darkcyan;
+  color: yellow;
+  font-family:'Times New Roman', Times, serif
+}
+/* Here we change the aside section only*/
+aside{
+  order: 4;
+  margin: 10px;
+  background-color: lightblue;
+  border: dotted darkblue 15px;
+}
+/* Here we change the aside only while hover*/
+aside:hover{
+  font-size: larger;
+  font-weight: bolder;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: dashed darkorange 15px;
+}
+/* Here we change the footer*/
+footer{
+  order: 5;
+  margin: 10px;
+  background-color: lightblue;
+  border: dotted darkblue 15px;
+}
+/* Here we change the footer but only with hoveing*/
+footer:hover{
+  margin: 10px;
+  background-color: darkkhaki;
+  border: dotted darkblue 15px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* Here we change the svg contained in the footer but we are using nth of type property*/
+svg:nth-of-type(1){
+  width: 30px;
+  height: 30px;
+}
